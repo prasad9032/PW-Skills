@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from that contain different colors in the input field</title>
+    <style>
+        
+        .a{
+            color: #f4a908;
+        }
+        .b{
+            color: #28f408;
+        }
+        .c{
+            color: #f408c1;
+        }
+        .d{
+            color: #1457cb;
+        }
+        button{
+            background-color: #0fe7d2;
+            color: #ff5e00;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="">
+        <label for="name"> Enter your full name:</label>
+        <input  class="a" type="text" name="fullname" id="name" placeholder="enter your full name" required pattern="[A-Za-z]{10}">
+        <br>
+        <label for="email"> Enter your email id:</label>
+        <input  class="b" type="email" name="email" id="email" placeholder="enter your email id" required >
+        <br>
+        <label for="phone">Enter your 10 digits mobile number:</label>
+        <input  class="c" type="tele" name="phone number" placeholder="enter correct number" required>
+        <br>
+        <label for="address">Enter your current address:</label>
+        <input  class="d" type="address" placeholder="enter full address"  required>
+        <br>
+        <button>Submit</button>
+    </form>
+</div>
+</body>
+</html>
