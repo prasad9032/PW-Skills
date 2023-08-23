@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+   }
+    .sub1{
+        margin-left: 30px;
+        display: grid;
+        place-items: center;
+    }
+    h1,p,button{
+       float: left;
+      
+    }
+    button{
+        background-color: black;
+        color: aliceblue;
+       
+        padding: 5px 20px;
+    }
+    
+    .sub{
+        float: right;
+        width: 190px;
+        height: 600px;
+        background-color: #e9e616;
+    }
+    img{
+        display: block;
+    }
+  
+
+    .second{
+            /* border: 2px solid black; */
+            margin: 0px;
+        margin-left: 10px;
+          width: 70em;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 430px 500px 180px;
+       
+        }
+      
+        .btn{
+            margin-top: 15px;
+            margin-right:  10px;
+            background-color: #405ef0;
+            color: aliceblue;
+            float: right;
+        }
+       .main{
+        display: grid;
+        grid-template-columns: auto auto 200px;
+        margin: 0px;
+        padding: 0px;
+       }
+       .first{
+        border: 2px solid black;
+        width:71em;
+       }
+       .mm{
+        margin: 5px 10px;
+        
+       }
+       li{
+        margin: 10px;
+       }
+       .nn{
+        display: flex;
+       text-align: center;
+       margin: 0px;
+    }
+       nav{
+        margin-top: 15px;
+        font-size: x-large;
+        
+       }
+       a{
+        margin: 10px;
+       }
+       .bb{
+        margin-bottom: 5px;
+       }
+       footer{
+        margin-top: 10px;
+        padding: 15px;
+        margin-left: 10px;
+        background-color: #3b3a3a;
+        width: 70em;
+        height: 25em;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        /* margin-right: 5px; */
+       }
+       .third{
+        display: flex;
+        justify-content: space-evenly;
+       }
+       .ff{
+        text-align: center;
+        width: 15em;
+       }
+       h2{
+        color: #ffffff;
+       }
+       p{
+        color: #605e5e;
+        font-size: larger;
+       }
+       img{
+        border-radius: 10px;
+       }

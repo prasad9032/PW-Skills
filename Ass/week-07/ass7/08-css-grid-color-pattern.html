@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color pattern with  css grid</title>
+    <style>
+        body{
+            background-color: #1c1b1b;
+        }
+        h1{
+            color: #c7c7c5;
+        }
+        .head{
+            display: grid;
+            place-items: center;
+            grid-template-areas:"  11 22 33 44"
+               " 55 66 77 88" ;
+               gap: 10px;
+              
+        }
+        .sub1{
+            border-radius: 20px;
+            grid-area: "11";
+            width: 200px;
+            
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            height: 300px;
+            background-color: #cf9c9c;
+            color: #242524;
+        }
+        .sub2{
+            border-radius: 20px;
+            grid-area: "22";
+            width: 200px;
+            
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            height: 300px;
+            background-color: #1539c9;
+            color: #0f100f;
+        }
+        .sub3{
+            border-radius: 20px;
+            grid-area: "33";
+            width: 200px;
+            
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            height: 300px;
+            background-color: #d38e0d;
+            color: #161717;
+        }
+        .sub4{
+            border-radius: 20px;
+            grid-area: "44";
+            width: 200px;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+          
+
+            height: 300px;
+            background-color: #c31ce5;
+            color: #0e0e0e;
+        }
+        .sub5{
+            border-radius: 20px;
+            grid-area: "55";
+            width: 200px;
+            
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+
+            height: 300px;
+            background-color: #139a69;
+            color: #121212;
+        }
+        .sub6{
+            grid-area: "66";
+            border-radius: 20px;
+            width: 200px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            
+            height: 300px;
+            background-color: #0cd81a;
+            color: #1a1b1b;
+        }
+       
+        .sub7{
+            grid-area: "77";
+            border-radius: 20px;
+            width: 200px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            
+            height: 300px;
+            background-color: #8a0361;
+            color: #1a1b1b;
+        }
+        .sub8{
+            grid-area: "88";
+            border-radius: 20px;
+            width: 200px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: x-large;
+           font-weight: 300;
+            
+            height: 300px;
+            background-color: #0cb9d8;
+            color: #1a1b1b;
+        }
+    </style>
+</head>
+<body>
+    <h1> Feeling Fancy </h1>
+    <div class="head">
+        <div class="sub1">#cf9c9c</div>
+        <div class="sub2">#1539c3</div>
+        <div class="sub3">#d38e0d</div>
+        <div class="sub4">#c31ce5</div>
+        <div class="sub5">#139a69</div>
+        <div class="sub6">#0cd81a</div>
+        <div class="sub7">#8a0361</div>
+        <div class="sub8">#0cb9d8</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images with css grid </title>
+    <style>
+        .con{
+            display: grid;
+            border: 3px solid black;
+         grid-template: repeat(3,300px)/repeat(3,300px);
+         gap: 20px;
+         width: 60em;
+         
+        }
+       .l1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+       }
+       .mm .i2{
+        grid-row-start: 1;
+        grid-row-end: 4;
+        border: 2px solid black;
+       }
+       
+      
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="i1">
+            <img  width="300px" height="300px" src="https://th.bing.com/th/id/OIP.vS0hnvg05rmzzKcjoMAafAHaE8?pid=ImgDet&rs=1" alt="">
+        </div>
+        <div class="i2" >
+            <img class="mm" width="300px" height="300px" src="https://th.bing.com/th/id/OIP.Z5iajfFKkXp6d_z6beMYqQHaE6?pid=ImgDet&rs=1" alt="">
+        </div>
+        <div class="i3">
+            <img width="300px" height="300px" src="https://th.bing.com/th/id/OIP.dGoNJnqimBJdnfTmS4lLwAHaFj?pid=ImgDet&rs=1" alt="">
+        </div>
+        <div class="i4">
+            <img  width="300px" height="300px"src="https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?cs=srgb&dl=landscape-mountains-nature-67517.jpg&fm=jpg" alt="">
+        </div>
+        <div class="i5">
+            <img  width="300px" height="300px" src="https://th.bing.com/th/id/OIP.3Df1JLR5k7iNChSTuqy7RQHaE9?pid=ImgDet&rs=1" alt="">
+        </div>
+        <div class="i6">
+            <img width="300px" height="300px" src="https://th.bing.com/th/id/OIP.Bi0k2-iz32f69kD-n1g1sgHaE6?pid=ImgDet&rs=1" alt="">
+   
+        </div>
+    </div> 
+        
+</body>
+</html>
