@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon cards</title>
+    <style>
+        body{
+            margin: 10px 30px;
+        }
+       
+        .container{
+            border: 2px solid black;
+            width: 90rem;
+            height: 45em;
+            display: flex;
+
+        }
+       
+        .first{
+            margin: 10px;
+            width: 15em;
+            height: 20rem;
+            position: absolute;
+            left: 8em;
+            top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            background-color: #70c714;
+            z-index: 3;
+        }
+        .second{
+            margin: 10px;
+            width: 15em;
+            height: 20rem;
+            position: absolute;
+            left: 40px;
+            top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            background-color: #38bce4;
+            z-index: 2;
+        }
+        .third{
+            margin: 10px;
+            width: 15em;
+            height: 20rem;
+            position: absolute;
+            left: 15em;
+            top: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid #000000;
+            background-color: #e4d713;
+            z-index: 3;
+        }
+        /* .card{
+            position: absolute;
+        } */
+        .first:hover{
+            z-index: 15;
+        }
+        .second:hover{
+            z-index: 15;
+        }
+        .third:hover{
+            z-index: 15;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first card"><img src="./pok.png" width="200px" height="200px"   alt=""></div>
+        <div class="second card"><img src="./R.png" width="200px" height="200px"  alt=""></div>
+        <div class="third card"><img src="./OIP.jpeg" width="200px" height="200px" alt=""></div>
+    </div>
+</body>
+</html>
