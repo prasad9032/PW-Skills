@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            place-items: center;
+        }
+        .con{
+            background-color: black;
+            width:40%;
+            display: grid;
+            place-items: center;
+            border-radius: 5px;
+        }
+        .sub{
+            width: 35%;
+            height: 25em;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        form{
+            margin: 10px;
+        }
+
+        h1{
+            text-align: center;
+        }
+        select{
+            display: block;
+        }
+        button{
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+            padding: 2px 60px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        input{
+            padding-right: 2px 60px;
+            margin: 5px;
+        }
+        select{
+            padding-right: 80px;
+            margin: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="sub">
+            <h1>Signup</h1>
+            <form action="">
+
+                <lable>Name:</lable>
+                <input type="text">
+                <label for="Batch">Batch:</label>
+                <select name="" id="">
+                    <option value="">Sigma 2.1</option>
+                    <option value="">Sigma 2.2</option>
+                </select>
+                <lable>Age:</lable>
+                <input type="text">
+                <lable>Email:</lable>
+                <input type="email">
+                <lable>Password:</lable>
+                <input type="password">
+            </form>
+            <button>Signup</button>
+        </div>
+    </div>
+</body>
+</html>
